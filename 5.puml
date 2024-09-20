@@ -1,0 +1,32 @@
+@startuml
+class model.Triangle {
++ void draw(GraphicsContext)
+}
+
+class model.Rectangle {
++ double length
++ double width
++ double area()
++ void draw(GraphicsContext)
+}
+
+
+class model.Line {
++ double x
++ double y
++ void draw(GraphicsContext)
+}
+
+
+abstract class model.Shape {
++ Color color
+~ {abstract}void draw(GraphicsContext)
+}
+
+
+
+
+model.Shape <|-- model.Triangle
+model.Shape <|-- model.Rectangle
+model.Shape <|-- model.Line
+@enduml

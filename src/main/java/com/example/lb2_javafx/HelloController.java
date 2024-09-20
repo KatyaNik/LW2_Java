@@ -1,6 +1,5 @@
 package com.example.lb2_javafx;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
@@ -9,6 +8,9 @@ import javafx.scene.control.ColorPicker;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.paint.Color;
+import model.Line;
+import model.Rectangle;
+import model.Triangle;
 
 import java.util.Objects;
 
