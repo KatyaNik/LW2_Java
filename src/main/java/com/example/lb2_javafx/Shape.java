@@ -5,7 +5,7 @@ import javafx.scene.paint.Color;
 
 abstract class Shape
 {
-
+    //коментарий
     public Color color;
 
     public Shape (Color color)
